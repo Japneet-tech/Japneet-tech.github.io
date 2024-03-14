@@ -11,20 +11,20 @@ body {
 }
 
 /* Layout */
+div{
+  display: flex;
+}
 
 section {
-  float: left;
-  width: 50%;
+  flex: 5;
 }
 
 aside {
-  float: left;
-  width: 30%;
+  flex: 3;
 }
 
 nav {
-  float: left;
-  width: 20%;
+  flex: 6;
 }
 
 footer {
@@ -43,3 +43,13 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: 'EB Garamond', serif;
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'PT Serif', serif;
+  src: url('C:\Users\sjapn\OneDrive\Documents\GitHub\Japneet-techgithub.io\Lab3\Part3\external-link-52.png"https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hind+Madurai:wght@300&family=PT+Serif&display=swap');
+}
+body{s
+  font-family: 'Hind Madurai', sans-serif;
+}
